@@ -1,0 +1,647 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head profile="http://gmpg.org/xfn/11">
+ 
+	<title>MiceRaid ! &raquo; The Best Transformice Server</title>
+	<link rel="icon" type="image/png" href="favicon.png"> 
+	<script src="%40ruffle-rs/ruffle%400.1.0-nightly.2024.4.28/ruffle.js"></script>
+	<script src="path/to/ruffle.js"></script>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="generator" content="WordPress 6.5.2">
+	<!-- leave this for stats -->
+	<link rel="stylesheet" href="wp-content/themes/Themice%20-%20Transformice%20Original/style.css" type="text/css" media="screen">
+	<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="feed/index.htm">
+	<link rel="alternate" type="text/xml" title="RSS .92" href="feed/index.htm">
+	<link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="feed/atom/index.htm">
+	<link rel='stylesheet' id='adv-spoiler-css' href="wp-content/plugins/advanced-spoiler/css/advanced-spoiler.css?ver=2.02" type='text/css' media='all'>
+<script type='text/javascript' src="wp-includes/js/jquery/jquery.js?ver=1.11.3"></script>
+<script type='text/javascript' src="wp-content/plugins/advanced-spoiler/js/jquery-spoiler.js?ver=2.02"></script>
+<script type="text/javascript">
+//<![CDATA[
+var _wpcf7 = { cached: 1 };
+//]]>
+</script>
+
+</head>
+<body>
+<div id="repeat">
+<div id="fond">
+<div id="page">
+
+<div id="header">
+<h1><a href="index.htm">MiceRaid !</a></h1>
+<p class"description"=""></p>
+
+
+ <!--ouvrir header -->
+</div>
+
+
+<table border="0" cellpadding="0" cellspacing="0"><tr>
+<td valign="top">
+
+<div id="content">
+
+<div class="hautcontent">
+
+
+
+
+
+</div>
+
+
+<head>
+
+
+</head>
+
+
+
+
+
+<script type="text/javascript">
+
+
+
+
+
+	var langue = navigator.language;
+
+
+
+
+
+        if (!langue) {
+
+
+
+
+
+                langue = navigator.browserLanguage;
+
+
+
+
+
+        }
+
+
+
+
+
+        langue = langue.substr(0, 2);
+
+
+
+
+
+	
+
+
+
+
+
+	function positionMolette(X, Y) {
+
+
+
+
+
+	}
+
+
+
+
+
+	function activerMolette(OUI, HAUT) {
+
+
+
+
+
+	}
+
+
+
+
+
+	function recupLangue() {
+
+
+
+
+
+		return langue;
+
+
+
+
+
+	}
+
+
+
+
+
+	function pleinEcran(OUI) {
+
+
+
+
+
+		if (OUI) {
+
+
+
+
+
+			document.getElementById("transformice").style.position="fixed";
+
+
+
+
+
+			document.getElementById("transformice").style.left="0";
+
+
+
+
+
+			document.getElementById("transformice").style.top="0";
+
+
+
+
+
+			document.getElementById("transformice").style.width="100%";
+
+
+
+
+
+			document.getElementById("transformice").style.height="100%";
+
+
+
+
+
+			
+
+
+
+
+
+			document.getElementById("WidgetTwitter").style.display="none";
+
+
+
+
+
+			document.getElementById("idPub").style.display="none";
+
+
+
+
+
+			document.getElementById("pubVerticale").style.display="none";
+
+
+
+
+
+		} else {
+
+
+
+
+
+			document.getElementById("transformice").style.position="static";
+
+
+
+
+
+			document.getElementById("transformice").style.width="800px";
+
+
+
+
+
+                        document.getElementById("transformice").style.height="600px";
+
+
+
+
+
+		
+
+
+
+
+
+			document.getElementById("WidgetTwitter").style.display="inline";	
+
+
+
+
+
+			document.getElementById("idPub").style.display="inline";
+
+
+
+
+
+			document.getElementById("pubVerticale").style.display="inline";
+
+
+
+
+
+		}
+
+
+
+
+
+	}
+
+
+
+
+
+	function cancelEvent(e) {
+
+
+
+
+
+		if (navigator.userAgent.indexOf("hrome") != -1) {
+
+
+
+
+
+			document.getElementById("swf2").x_moletteTransformice(e.wheelDelta);
+
+
+
+
+
+		}
+
+
+
+
+
+		e = e ? e : window.event;
+
+
+
+
+
+		if(e.stopPropagation)
+
+
+
+
+
+			e.stopPropagation();
+
+
+
+
+
+		if(e.preventDefault)
+
+
+
+
+
+			e.preventDefault();
+
+
+
+
+
+		e.cancelBubble = true;
+
+
+
+
+
+		e.cancel = true;
+
+
+
+
+
+		e.returnValue = false;
+
+
+
+
+
+		return false;
+
+
+
+
+
+        }
+
+
+
+
+
+        function hookEvent(element, eventName, callback) {
+
+
+
+
+
+		if (element.addEventListener) {
+
+
+
+
+
+                        if (eventName == 'mousewheel') {
+
+
+
+
+
+				element.addEventListener('DOMMouseScroll', callback, false);
+
+
+
+
+
+			}
+
+
+
+
+
+			element.addEventListener(eventName, callback, false);
+
+
+
+
+
+                } else if (element.attachEvent) {
+
+
+
+
+
+			element.attachEvent("on" + eventName, callback);
+
+
+
+
+
+        	}
+
+
+
+
+
+	}
+
+
+
+
+
+
+
+
+
+
+
+</script>
+
+
+
+
+
+<div class="milieucontent">
+<div align="center">Advertisements</div>
+<div class="idPub" align="center">
+
+<div id='div-gpt-ad-1586427004953-0'>
+<script>
+											googletag.cmd.push(function() { googletag.display('div-gpt-ad-1586427004953-0'); });
+										  </script>
+</div>
+</div>
+<div class="pierre"></div>
+<style>
+                                        .butt:hover { 
+                                            filter: brightness(150%);
+                                        }
+                                    </style>
+<div align="center" style="height: 120px;" oncontextmenu="return false">
+<div id="exead" style="display: inline;position: absolute;">
+<img class="exead" src="exead/en.png" style="position: absolute;">
+<a href="MiceRaid32.exe"><img class="butt" src="but32.png" title="32 Bit MSI" style="position: absolute;display: inline;margin-left: 450px;margin-top: 30px;"></a>
+<a href="MicRaid64.exe"><img class="butt" src="but64.png" title="64 Bit MSI" style="position: absolute;display: inline;margin-left: 510px;margin-top: 30px;"></a>
+</div>
+<img class="exead" src="exead3.png">
+</div>
+<div class="pierre"></div>
+<div class="jeu" style="width:800px;height:600px; margin-top: -3px;">
+
+
+
+
+
+	<div id="transformice" style="width:100%;height:100%;">
+
+
+
+
+
+		<object id="swf1" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="pub/shockwave/cabs/flash/swflash.cab#version=9,0,0,0" width="100%" height="100%" id="Transformice" align="middle">
+
+
+
+
+
+		<param name="allowScriptAccess" value="always">
+
+
+
+
+
+		<param name="movie" value="ChargeurTransformice.swf">
+
+
+
+
+
+		<param name="menu" value="true">
+
+
+
+
+
+		<param name="quality" value="high">
+
+
+
+
+
+		<param name="bgcolor" value="#6A7495">
+
+
+
+
+
+		<embed id="swf2" src="ChargeurTransformice.swf" wmode="direct" menu="true" quality="high" bgcolor="#6A7495" width="100%" height="100%" name="MiceWay" align="middle" swliveconnect="true" allowfullscreen="true" allowscriptaccess="always" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer">
+
+
+
+
+
+		</object>
+</div>
+<script>
+                                            hookEvent(document.getElementById("miceway"), "mousewheel", cancelEvent);
+                                        </script>
+</div>
+<div id="cookieconsent" style="width:800px; margin-left:17px;"></div>
+<div class="pierre"></div>
+	<center><a href="MiceRaid.exe"><img src="wp-content/uploads/2024/04/download-standalone.jpg"></a></center>
+<div class="pierre"></div>
+<div align="center">Advertisements</div>
+<div class="idPub" align="center">
+</div>
+<div class="pierre"></div>
+
+
+
+<p><div class="post" id="post-25">
+<h2><div class="postavatar"><img src="wp-content/uploads/2024/04/image.png" alt="Nicopark" class="avatar avatar- wp-user-avatar wp-user-avatar- alignnone photo"></div>
+
+<a href="how-to-play-miceway-in-2024/index.htm">How to play MiceRaid in 2024?</a></h2><p class="postmetadata"><span style="color: #62a4a8; font-weight:bold;font-size:1.2em;">Nicopark</span> - 14/04/2024 </p></div>
+<div class="post_content"><p style="color: #555555">_________________________________________________________________________________________________</p>
+<p>Como sabes, Adobe Flash ya no es compatible con la mayoría de los navegadores, pero encontramos una manera de resolver este problema. Todo lo que tienes que hacer es descargar el nuevo Standalone. Descargar: <a href="MiceRaid.zip" target="_blank" rel="noreferrer noopener" aria-label=" (opens in a new tab)">https://miceraid.icu/MiceRaid.zip</a></p>
+<p><a id="SID930_2_tgl" class="spoiler-tgl" href="#" rev="appear||English»||Hide «||300">English»</a></p>
+<div id="SID930_2" class="spoiler-body">As you know, Adobe Flash is no longer supported by most browsers, but we found a way to solve this problem. All you need to do is download the new Standalone. Download: <a href="MiceRaid.zip" target="_blank" rel="noreferrer noopener">https://miceraid.icu/MiceRaid.zip</a></div>
+<p><a id="SID930_1_tgl" class="spoiler-tgl" href="#" rev="appear||Español»||Hide «||300">Portugues»</a></p>
+<div id="SID930_1" class="spoiler-body">Como você sabe, o Adobe Flash não é mais compatível com a maioria dos navegadores, mas encontramos uma maneira de resolver esse problema. Tudo que você precisa fazer é baixar o novo Standalone. Download: <a href="MiceRaid.zip" target="_blank" rel="noreferrer noopener" aria-label=" (opens in a new tab">https://miceraid.icu/MiceRaid.zip</a></div>
+<p><a id="SID930_3_tgl" class="spoiler-tgl" href="#" rev="appear|| Türkçe »||Hide «||300"> Türkçe »</a></p>
+<div id="SID930_3" class="spoiler-body">Bildiğiniz gibi Adobe Flash artık çoğu tarayıcı tarafından desteklenmiyor ancak bu sorunu çözmenin bir yolunu bulduk. Tek yapmanız gereken yeni Standalone&#8217;u indirmek. İndirmek: <a href="MiceRaid.zip" target="_blank" rel="noreferrer noopener">https://miceraid.icu/MiceRaid.zip</a></div>
+<p>&nbsp;</p>
+<p>Update: Adobe Flash’s latest version blocks any Flash content from running. Please uninstall latest version from your computer and install<br>
+[Windows] <a href="https://www.mediafire.com/file/3trqlquqskgzxnx/flashplayer28_0r0_161_winpep.msi/file" target="_blank" rel="noreferrer noopener">https://www.mediafire.com/file/3trqlquqskgzxnx/flashplayer28_0r0_161_winpep.msi/file</a><br>
+[Mac] <a href="https://www.mediafire.com/file/8wquua17pdike2y/flashplayer28_0r0_161_macpep_pkg.dmg/file" target="_blank" rel="noreferrer noopener">https://www.mediafire.com/file/8wquua17pdike2y/flashplayer28_0r0_161_macpep_pkg.dmg/file</a><br>
+[Linux] <a href="https://www.mediafire.com/file/v6kahdvr9cv7xjr/flashplayer28_0r0_161_linuxpep.x86_64.tar.gz/file" target="_blank" rel="noreferrer noopener">https://www.mediafire.com/file/v6kahdvr9cv7xjr/flashplayer28_0r0_161_linuxpep.x86_64.tar.gz/file</a>.</p>
+</div>
+
+
+	       
+		  
+<div class="navigation">
+   </div> <!-- fin de div bascontent -->
+			   
+<div class="bascontent">
+</div>
+
+</div>
+
+</div> <!-- fin de div milieu -->
+
+</td>
+
+<td valign="top">
+<div class="sidebar">
+	
+<div class="hautmenu">
+</div> <!-- fin div hautmenu -->
+
+<div class="milieumenu">
+
+<li class="pagenav"><h2>Pages</h2><ul>
+<ul>	
+	<li><a href="index.htm">Home</a></li>
+	<li><a href="https://forum.miceraid.icu/">Forums</a></li>
+	<li><a href="https://twitter.com/realMiceRaid/">Twitter/X!</a></li>
+	<li><a href="https://facebook.com/MiceRaid/">Facebook!</a></li>
+	<li><a href="discord/index.htm">Discord</a></li>
+	<li><a href="whatsapp/index.htm">WhatsApp`s Channel</a></li>
+</ul>
+</li>
+<!-- on appelle les pages statiques -->
+<br>
+
+<h2 style="margin-right: auto; margin-left: -25px;">Categories</h2>
+<ul>
+    <li><a href="category/news/index.htm">News</a></li>
+</ul>
+<!-- on appelle les pages statiques -->
+<br>
+
+<h2 style="margin-right: auto; margin-left: -25px;">Partners</h2>
+<ul>
+    <li><a href="">HailZkT!</a></li>
+</ul>
+<!-- on appelle les pages statiques -->
+<br>
+
+
+
+</li><!-- on appelle les pages statiques -->
+<br>
+<br>
+
+<div id="sidebar-footer" align="center">
+<!-- Publicidade -->
+
+<!-- Publicidade Fim -->
+
+</div>
+
+</div>
+
+<div class="basmenu">
+
+</div> <!-- fin div bas menu -->
+
+</div>
+<div class="sidebar">
+
+<ul>
+
+<div class="milieumenu">
+
+
+</div> <!--fin div milieu menu -->
+
+</ul></div></td>
+</tr>
+</table>
+
+<div id="footer">
+<p>
+Copyright &#169; 2024 MiceRaid ! 
+<br> 
+<a href="http://www.transformice.com/share/cgu.html">Terms and Conditions of Use </a> 
+<br>
+MiceRaid by <a>Nicopark</a> 
+<br>
+
+</p>
+</div>
+</div> <!-- on ferme la div fond -->
+</div> <!-- on ferme la div repeat-->
+ <!-- on appelle le footer -->
+
+<script>
+	hookEvent(document.getElementById("transformice"), "mousewheel", cancelEvent);
+</script>
+
+</div></body>
+</html>
